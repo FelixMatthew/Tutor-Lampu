@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<head>
+    <title>Nyalakan lampu</title>
+</head>
+<body>
+    <img id="lampunya" src="https://static.bmdstatic.com/pk/product/large/5ba37c9a091f0.jpg" height="200" width="250">
+    <button type="button" onclick="nyalalampu()"> nyalakan lampu</button><br>
+    <button type="button" onclick="matilampu()"> matikan lampu</button><br>
+
+    <script>
+        var image = document.getElementById("lampunya")
+        function nyalalampu(){
+            image.src="https://e7.pngegg.com/pngimages/948/51/png-clipart-incandescent-light-bulb-electrical-energy-lights-on-light-bulb-household-lights.png" 
+        }
+        function matilampu(){
+            image.src="https://static.bmdstatic.com/pk/product/large/5ba37c9a091f0.jpg"
+        }
+
+    </script>
+</body>
+</html>
